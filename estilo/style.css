@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+@font-face {
+    font-family: 'Plant';
+    src: url('../fontes/Plante.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root{
+    --cor1: #88498F;
+    --cor2: #779FA1;
+    --cor3: #3F4739;
+    --cor4: #FF6542;
+    --cor5: #564154;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2)); 
+    text-align: center;
+    min-height: 170px;
+    color: white;
+}
+
+header h1{
+    padding-top: 20px;
+    font-family: 'Plant', Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+}
+header p {
+    padding: 20px 10px 20px 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.226);
+    font-size: 13px;
+    max-width: 500px;
+    margin: auto;
+}
+nav{
+    background-color: var(--cor2);
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.363) ;
+    padding: 10px;
+
+}
+
+nav a{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    
+}
+
+nav a:hover{
+    background-color: var(--cor1);
+    border-radius: 5px;
+    color: #bbfcff ;
+}
+
+main{
+    
+    background-color: white;
+    max-width: 800px;
+    min-width: 280;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+main h2{
+    font-weight: normal;
+    font-family: 'Send Flowers', cursive;
+    font-size: 40px;
+    color: var(--cor5);
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 15px;
+}
+main img{
+    width: 100%;
+}
+
+#imagem1{
+    display: block;
+    margin: auto;
+    max-width: 320px;
+}
+
+div {
+    position: relative;
+    background-color: var(--cor1);
+    padding: 20px;
+    margin: 0px -20px 5px -20px;
+    max-height: 500px;
+    padding-bottom: 50%;
+}
+
+#video iframe{
+    position: absolute;
+    top:5%;
+    left: 5%;
+    width:90% ;
+    height:90% ;
+}
+
+
+
+#imagem2{
+    
+    display: block;
+    margin: auto;
+    max-width: 450px;
+    
+}
+
+footer{
+    background-color: var(--cor2);
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
